@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人主页</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>01</h2>
+        <h3>关于我</h3>
+        <p>这里是我的个人简介...</p>
+        <a href="#">了解更多</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>02</h2>
+        <h3>社交媒体</h3>
+    <div class="time-display">
+      <div class="progress-item">
+        <span>今年剩余：<span id="year-remaining"></span></span>
+        <div class="progress-bar">
+          <div id="year-progress" class="progress"></div>
+        </div>
+      </div>
+      <div class="progress-item">
+        <span>本月剩余：<span id="month-remaining"></span></span>
+        <div class="progress-bar">
+          <div id="month-progress" class="progress"></div>
+        </div>
+      </div>
+      <div class="progress-item">
+        <span>今日剩余：<span id="day-remaining"></span></span>
+        <div class="progress-bar">
+          <div id="day-progress" class="progress"></div>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="#" target="_blank"><i class="fab fa-bilibili"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-weibo"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+      </div>
+    </div>
+    <div id="aplayer"></div>
+  </div>
+  <script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
